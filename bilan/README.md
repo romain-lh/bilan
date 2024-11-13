@@ -39,3 +39,17 @@ il nous reste plus qu'a nous rendre sur un naviateur afin de mettre
 exemple : 192.168.20.108:8083
 
 
+nous allons maintenant pousser notre projet sur github pour se faire nous allons creer une clef ssh avec la commande : 
+
+ssh-keygen 
+
+ensuite nous allons copier la clef avec la commande: 
+
+cat  ~/.ssh/id_rsa.pub
+
+avec cette clef nous allons la definir dans git hub pour se faire nous allons nous rendre dans 
+
+settings 
+ssh and gpg 
+
+toujours dans github nous allons maintenant nous rendre dans le home pour creer un top repositories une fois la création faite il nous suffit de taper les commande qu’il sont donné 
