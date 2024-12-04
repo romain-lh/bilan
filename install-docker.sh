@@ -2,6 +2,7 @@
 
 # Mettre à jour la liste des paquets
 echo "Mise à jour de la liste des paquets..."
+apt install sudo
 sudo apt update
 
 # Installer les paquets nécessaires pour ajouter un dépôt HTTPS
