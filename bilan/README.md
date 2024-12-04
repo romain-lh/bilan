@@ -1,13 +1,16 @@
 pour executer le script nous allons avoir desoin d'une debian 12 
 
+Nous allons installer docker et docker compose par ssh
+dans un premier temps nous allons installer git sur notre debian avec la commande 
+- apt install git
+une fois git installer sur notre machine nous allons effectuer un git clone sur cette url: https://github.com/romain-lh/bilan.git
+
+- git clone https://github.com/romain-lh/bilan.git
+
 ensuite une fois le script dans notre debian il est important de lui donner 
 les droits necssaires pour s'installer avec la commande : 
 
-- chmod +x install-docker.sh
-
-pour que le script fonctionne nous allons installer sudo avec la commande: 
-
-- apt install sudo -y
+- chmod 777 instll-docker.sh
 
 install-docker.sh correspond au nom du fichier 
 
@@ -37,7 +40,6 @@ il nous reste plus qu'a nous rendre sur un naviateur afin de mettre
 - ip de la debian:8083
 
 exemple : 192.168.20.108:8083
-
 
 nous allons maintenant pousser notre projet sur github pour se faire nous allons creer une clef ssh avec la commande : 
 
